@@ -1,0 +1,54 @@
+header {
+    background-color: rgb(226, 43, 198);
+}
+
+footer {
+    background-color: rgb(116, 236, 243);
+}
+
+main {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.instructions {
+    color: red;
+}
+
+.quizContainer {
+    background: linear-gradient(rgb(0, 110, 255),rgb(0, 98, 226));
+    width: 170px;
+    margin:auto;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.pokemonImg {
+    padding: 5px;
+    border: 1px solid white;
+    height: 128px;
+    width: 128px;
+    margin: 20px auto 20px auto;
+}
+
+.regionSelection {
+    width: 70%;
+    height:auto;
+    color: white;
+    border: 0px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+    background: linear-gradient(rgb(255, 123, 0),rgb(227, 106, 1));
+    margin: 10px auto 10px auto;
+}
+
+.regionSelection:hover {
+    background: white;
+    color: rgb(255, 123, 0);
+}
+
+.regionSelection:active {
+    background: rgb(251, 228, 189);
+    color: rgb(228, 76, 0);;
+}
+
